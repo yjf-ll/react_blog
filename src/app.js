@@ -1,8 +1,8 @@
-import Main from "./view/main/main";
+import AppRouter from "./router/router";
 
 function App() {
   return (
-    <Main />
+    <AppRouter />
   );
 }
 
