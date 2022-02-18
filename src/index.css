@@ -16,6 +16,13 @@ code {
 a {
     text-decoration: none;
 }
+a:visited {
+    color: transparent;
+}
+
+img {
+    vertical-align: middle;
+}
 
 .content_heart {
     width: 100%;
@@ -24,4 +31,5 @@ a {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 60px 0 0 0;
+    position: relative;
 }

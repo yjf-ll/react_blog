@@ -14,9 +14,23 @@
 .navigator_author {
     width: 200px;
     height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     line-height: 60px;
-    background: red;
-    color: white;
+}
+
+.navigator_author_logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.navigator_author_title {
+    margin: 0 0 0 20px;
+    line-height: 60px;
+    font-size: 18px;
 }
 
 .navigator_links {
@@ -25,10 +39,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: aqua;
 }
 
 .navigator_links_item {
-    color: white;
     padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigator_links_item_title {
+    padding: 0 0 0 10px;
 }
