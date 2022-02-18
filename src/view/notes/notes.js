@@ -1,7 +1,9 @@
+import container from "../common/container/container";
+
 function Notes() {
   return (
-    <div>Notes</div>
+    <div>notes</div>
   )
 }
 
-export default Notes
+export default container(Notes)

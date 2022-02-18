@@ -1,6 +1,13 @@
+import "./home.css"
+import container from "../common/container/container";
+
 function Home() {
   return (
-    <div>Home</div>
+    <div className={"home"}>
+      <div className={"content_heart"}>
+        home
+      </div>
+    </div>
   )
 }
 

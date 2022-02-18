@@ -1,7 +1,11 @@
+import container from "../common/container/container";
+
 function About() {
   return (
-    <div>About</div>
+    <div>
+      about
+    </div>
   )
 }
 
-export default About
+export default container(About)

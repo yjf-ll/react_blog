@@ -2,7 +2,9 @@ import AppRouter from "./router/router";
 
 function App() {
   return (
-    <AppRouter />
+    <div className={"content_container"}>
+      <AppRouter/>
+    </div>
   );
 }
 
